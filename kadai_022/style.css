@@ -3,6 +3,7 @@ h1 {
   color: rgb(255, 255, 255);
 }
 p {
+  font-size: 20px;
   margin: 0px;
   text-align: center;
 }
@@ -49,6 +50,7 @@ footer {
   text-align: center;
 }
 a:link {
+  font-size: 20px;
   color: rgb(255, 255, 255);
 }
 a:visited {
@@ -65,6 +67,7 @@ a:hover {
     font-size: 25px;
   }
   #parent {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 }
