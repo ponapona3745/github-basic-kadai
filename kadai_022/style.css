@@ -22,6 +22,7 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
 .contents {
   border: 3px solid rgb(238, 204, 204);
   flex-basis: 25%;
@@ -49,8 +50,10 @@ footer {
   background-color: rgb(244, 79, 79);
   text-align: center;
 }
-a:link {
+a {
   font-size: 20px;
+}
+a:link {
   color: rgb(255, 255, 255);
 }
 a:visited {
@@ -70,4 +73,4 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
-}
+  }
